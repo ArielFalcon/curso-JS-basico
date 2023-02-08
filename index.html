@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación del DOM</title>
+</head>
+<body>
+    <h1 pantalla = "Platzi"> Manipulación del DOM básica</h1>
+    <p> Esto es un parrafo</p>
+    <p class="parrafito">Esto es un parrafo con clase</p>
+    <p id="pid">Esto es un parrafo con ID</p>
+    <input onchange="console.log(input1.value)" id="calculo1" placeholder="Escribe algo aquí">
+    <input id="calculo2" placeholder="Escribe algo aquí">
+    <button id="btnCalcular" onclick="onBtnClick()">Calcular</button>
+    <button id="btn2" onclick="onBtnClick()">Boton 2</button>
+    <p id="result"></p>
+
+    <form id="formulario">
+        <input id="inputFormulario" placeholder="Formulario"/>
+        <button id="btnFormulario"> Submit</button>
+    </form>  <!-- La etiqueta form toma por defecto el ultimo boton contenido como un boton Submit aunque no se expecifique y cuando se de click este enviara el formulario y reiniciara la pagina -->
+    <script src="manipulacionDOM.js"></script>
+</body>
+</html>
